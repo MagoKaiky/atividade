@@ -1,0 +1,18 @@
+/* Lógico_1: */
+
+CREATE TABLE Eventos (
+    Data VARCHAR,
+    local VARCHAR,
+    detalhes VARCHAR
+);
+
+CREATE TABLE Participantes (
+    nome VARCHAR,
+    cpf VARCHAR,
+    idade VARCHAR
+);
+
+CREATE TABLE Organizadores (
+    agendas VARCHAR,
+    convite VARCHAR
+);

@@ -1,0 +1,12 @@
+/* Lógico_1: */
+
+CREATE TABLE Usuarios (
+    senha VARCHAR,
+    nome_usuario VARCHAR,
+    conexoes NUMERIC
+);
+
+CREATE TABLE Posts (
+    curtidas NCHAR,
+    comentarios VARCHAR
+);

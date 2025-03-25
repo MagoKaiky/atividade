@@ -1,0 +1,12 @@
+/* Lógico_1: */
+
+CREATE TABLE Hospedes (
+    nome VARCHAR,
+    p_quarto NUMERIC,
+    contato VARCHAR
+);
+
+CREATE TABLE Quartos (
+    check_out VARCHAR,
+    datas_de_check_in VARCHAR
+);
